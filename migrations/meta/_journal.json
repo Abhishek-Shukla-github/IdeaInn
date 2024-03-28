@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1711645733301,
+      "tag": "0000_parched_screwball",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1711649817102,
+      "tag": "0001_smooth_cloak",
+      "breakpoints": true
+    }
+  ]
+}

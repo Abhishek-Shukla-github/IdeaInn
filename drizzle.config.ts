@@ -6,6 +6,8 @@ if (!process.env.DATABASE_URL) {
   console.log('🔴 Cannot find database url');
 }
 
+else console.log("SUCCESSFULLLLLLLL")
+
 export default {
   schema: './src/lib/supabase/schema.ts',
   out: './migrations',
