@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/providers/next-theme-provider";
+import { DM_Sans } from 'next/font/google';
+const inter = DM_Sans({ subsets: ['latin'] });
 
 import db from "../lib/supabase/db";
 
 console.log("db",db)
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
